@@ -41,6 +41,12 @@ Select the build scheme to point to the desired environment
 
 Select **DevelopmentTests** scheme to start the unit tests.
 
+## App Architecture
+
+* MVVM
+* Protocol oriented programming
+
+
 ## Room for improvments
 
 * Multiple cities support
