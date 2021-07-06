@@ -105,13 +105,13 @@ struct Astro: Codable {
 struct Day: Codable {
     let maxtempC, maxtempF, mintempC, mintempF: Double?
     let avgtempC, avgtempF, maxwindMph, maxwindKph: Double?
-    let totalprecipMm, totalprecipIn, avgvisKM, avgvisMiles: Int?
-    let avghumidity, dailyWillItRain: Int?
+    let totalprecipMm, totalprecipIn, avgvisKM, avgvisMiles: Double?
+    let avghumidity, dailyWillItRain: Double?
     let dailyChanceOfRain: String?
-    let dailyWillItSnow: Int?
+    let dailyWillItSnow: Double?
     let dailyChanceOfSnow: String?
     let condition: Condition?
-    let uv: Int?
+    let uv: Double?
 
     enum CodingKeys: String, CodingKey {
         case maxtempC = "maxtemp_c"

@@ -16,7 +16,7 @@ class HistoryViewController: BaseViewController {
     
     // MARK: - Private Properties
     private let viewModel = HistoryViewModel()
-    private let limitedDays = 8
+    private let limitedDays = 5
     
     // MARK: - Override Methods
     override func viewDidLoad() {
